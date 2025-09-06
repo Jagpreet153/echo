@@ -6,6 +6,7 @@ export default function Page() {
       <div className="flex flex-col items-center justify-center gap-4">
         <h1 className="text-2xl font-bold">Hello web/app</h1>
         <Button size="sm">Button</Button>
+        
         <p className="text-lg">{add(2, 3)}</p>
       </div>
     </div>
